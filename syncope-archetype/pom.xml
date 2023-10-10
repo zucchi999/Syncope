@@ -25,6 +25,17 @@ under the License.
     <version xmlns="">2.1.14</version>
   </parent>
 
+<profiles>
+    <profile>
+      <id>embedded</id>
+      <build>
+        <!-- Configurazioni specifiche per il profilo "embedded" -->
+        <!-- Ad esempio, plugin, directory di output, ecc. -->
+      </build>
+    </profile>
+  </profiles>
+
+
   <properties>
     <syncope.version xmlns="">2.1.14</syncope.version>
     <secretKey>mySecretKey</secretKey>
