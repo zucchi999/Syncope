@@ -79,6 +79,14 @@ under the License.
         <version>${syncope.version}</version>
       </dependency>
     </dependencies>
+
+    <dependencies>
+    <dependency>
+        <groupId>org.apache.syncope</groupId>
+        <artifactId>syncope-core</artifactId>
+        <version>2.1.14</version>
+    </dependency>
+</dependencies>
   </dependencyManagement>
     
   <modules>
